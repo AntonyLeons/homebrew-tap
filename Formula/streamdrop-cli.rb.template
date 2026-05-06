@@ -5,22 +5,22 @@ class StreamdropCli < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/AntonyLeons/streamdrop/releases/download/v${VERSION}/streamdrop-cli-macos-x64.tar.gz"
+      url "https://github.com/AntonyLeons/streamdrop/releases/download/v${VERSION}/streamdrop-cli-macos-x64"
       sha256 "${MAC_INTEL_SHA}"
     elsif Hardware::CPU.arm?
-      url "https://github.com/AntonyLeons/streamdrop/releases/download/v${VERSION}/streamdrop-cli-macos-arm64.tar.gz"
+      url "https://github.com/AntonyLeons/streamdrop/releases/download/v${VERSION}/streamdrop-cli-macos-arm64"
       sha256 "${MAC_ARM_SHA}"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/AntonyLeons/streamdrop/releases/download/v${VERSION}/streamdrop-cli-linux-x64.tar.gz"
+      url "https://github.com/AntonyLeons/streamdrop/releases/download/v${VERSION}/streamdrop-cli-linux-x64"
       sha256 "${LINUX_INTEL_SHA}"
     end
   end
 
   def install
-    bin.install "streamdrop-cli" => "streamdrop"
+    bin.install Dir["streamdrop-cli-*"].first => "streamdrop"
   end
 end
