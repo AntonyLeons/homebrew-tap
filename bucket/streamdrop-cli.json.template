@@ -5,9 +5,11 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/AntonyLeons/streamdrop/releases/download/v${VERSION}/streamdrop-windows-x64.zip",
+            "url": "https://github.com/AntonyLeons/streamdrop/releases/download/v${VERSION}/streamdrop-cli-windows-x64.zip",
             "hash": "${WIN_INTEL_SHA}"
         }
     },
-    "bin": "streamdrop.exe"
+    "bin": [
+        ["streamdrop-cli.exe", "streamdrop"]
+    ]
 }
