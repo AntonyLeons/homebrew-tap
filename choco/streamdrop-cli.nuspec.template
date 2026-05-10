@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>streamdrop-cli</id>
+    <version>${VERSION}</version>
+    <title>StreamDrop CLI</title>
+    <authors>aleons</authors>
+    <projectUrl>https://github.com/aleons/streamdrop</projectUrl>
+    <tags>streamdrop file-transfer p2p e2ee security</tags>
+    <summary>End-to-end encrypted, zero-storage file transfer CLI</summary>
+    <description>StreamDrop is an end-to-end encrypted, zero-storage file transfer CLI and Web app. Files are encrypted locally and streamed directly to the receiver without ever being saved on the server.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

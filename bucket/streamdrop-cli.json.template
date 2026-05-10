@@ -1,15 +1,19 @@
 {
-    "version": "${VERSION}",
-    "description": "Secure E2EE, zero storage streaming transfer CLI",
-    "homepage": "https://github.com/AntonyLeons/streamdrop",
-    "license": "MIT",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/AntonyLeons/streamdrop/releases/download/v${VERSION}/streamdrop-cli-windows-x64.exe",
-            "hash": "${WIN_INTEL_SHA}"
-        }
-    },
-    "bin": [
-        ["streamdrop-cli-windows-x64.exe", "streamdrop"]
-    ]
+  "version": "${VERSION}",
+  "description": "End-to-end encrypted, zero-storage file transfer CLI.",
+  "homepage": "https://streamdrop.app",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/aleons/streamdrop/releases/download/v${VERSION}/streamdrop-cli-windows-x64.exe",
+      "hash": "${WIN_INTEL_SHA}",
+      "bin": [
+        [
+          "streamdrop-cli-windows-x64.exe",
+          "streamdrop"
+        ]
+      ]
+    }
+  },
+  "checkver": "github"
 }

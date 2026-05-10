@@ -1,0 +1,18 @@
+$ErrorActionPreference = 'Stop';
+
+$version = '${VERSION}'
+$url = "https://github.com/aleons/streamdrop/releases/download/v$version/streamdrop-cli-windows-x64.exe"
+$checksum = '${WIN_INTEL_SHA}'
+$checksumType = 'sha256'
+
+$packageArgs = @{
+  packageName   = $env:ChocolateyPackageName
+  unzipLocation = $toolsDir
+  url           = $url
+  softwareName  = 'streamdrop*'
+  checksum      = $checksum
+  checksumType  = $checksumType
+}
+
+Install-ChocolateyZipPackage @packageArgs
+Rename-Item -Path "$toolsDir\streamdrop-cli-windows-x64.exe" -NewName "streamdrop.exe"
