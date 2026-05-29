@@ -6,18 +6,18 @@ class StreamdropCli < Formula
   on_macos do
     on_intel do
       url "https://github.com/AntonyLeons/streamdrop/releases/download/v1.0.16/streamdrop-cli-macos-x64"
-      sha256 "ac96c375c622f3e4fe196b2a676be9cc3707fa58fcf3dc005fedfe24e705ab1b"
+      sha256 "1ebbc3f4abc7571bb4bc069caef03e8e39558e36c9ddc578deea766a89c2287d"
     end
     on_arm do
       url "https://github.com/AntonyLeons/streamdrop/releases/download/v1.0.16/streamdrop-cli-macos-arm64"
-      sha256 "6e54c9a0a74ff7eae1101535725cefcbf681f7342063b1fe0bab25491d511f7d"
+      sha256 "3b9708ffa9bb23c41d33654b72ff39c7671d982c634a0d2a37ffcda480935880"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/AntonyLeons/streamdrop/releases/download/v1.0.16/streamdrop-cli-linux-x64"
-      sha256 "be0296cc79149d4321a3677c65395401c3925bebd51209a8aa26a1602b0a8dea"
+      sha256 "4d6bcb726591504fc07a99b2788a5d520d9f32a316436a2c3d1acffc949cd298"
     end
   end
 
@@ -35,3 +35,4 @@ class StreamdropCli < Formula
     system "#{bin}/streamdrop", "--help"
   end
 end
+
