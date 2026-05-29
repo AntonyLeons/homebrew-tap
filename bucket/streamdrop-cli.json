@@ -1,12 +1,12 @@
 {
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "End-to-end encrypted, zero-storage file transfer CLI.",
   "homepage": "https://streamdrop.app",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/aleons/streamdrop/releases/download/v1.0.17/streamdrop-cli-windows-x64.exe",
-      "hash": "e5f9190039b7235356ac885dc5085e67e8d32bde1f9f8691a3465d3cdb3608f0",
+      "url": "https://github.com/aleons/streamdrop/releases/download/v1.0.18/streamdrop-cli-windows-x64.exe",
+      "hash": "849ad96264624813a0727002b8b523ae92ba21b6bd9362d1134890a399876254",
       "bin": [
         [
           "streamdrop-cli-windows-x64.exe",
