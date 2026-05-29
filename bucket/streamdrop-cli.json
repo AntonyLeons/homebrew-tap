@@ -6,7 +6,7 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/aleons/streamdrop/releases/download/v1.0.17/streamdrop-cli-windows-x64.exe",
-      "hash": "1774bb782296dc26e24ffdc1de713587f3cd78d289f35a51f4c86fd013652c43",
+      "hash": "e5f9190039b7235356ac885dc5085e67e8d32bde1f9f8691a3465d3cdb3608f0",
       "bin": [
         [
           "streamdrop-cli-windows-x64.exe",
