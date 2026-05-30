@@ -5,7 +5,7 @@
     <version>${VERSION}</version>
     <title>StreamDrop CLI</title>
     <authors>aleons</authors>
-    <projectUrl>https://github.com/aleons/streamdrop</projectUrl>
+    <projectUrl>https://github.com/AntonyLeons/streamdrop</projectUrl>
     <tags>streamdrop file-transfer p2p e2ee security</tags>
     <summary>End-to-end encrypted, zero-storage file transfer CLI</summary>
     <description>StreamDrop is an end-to-end encrypted, zero-storage file transfer CLI and Web app. Files are encrypted locally and streamed directly to the receiver without ever being saved on the server.</description>
