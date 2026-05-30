@@ -1,23 +1,23 @@
 class StreamdropCli < Formula
   desc "End-to-end encrypted, zero-storage file transfer CLI"
   homepage "https://streamdrop.app"
-  version "1.0.18"
+  version "1.0.19"
 
   on_macos do
     on_intel do
-      url "https://github.com/AntonyLeons/streamdrop/releases/download/v1.0.18/streamdrop-cli-macos-x64"
-      sha256 "43770744099cfa9dbfdb5c03d041d32884a7bf8c8d8fe389936a699af5a6c71b"
+      url "https://github.com/AntonyLeons/streamdrop/releases/download/v1.0.19/streamdrop-cli-macos-x64"
+      sha256 "4efcb20c7a8837c6f2aa8084d9eb8c9b7bc4c98c4ee2d6a4442c03897f31556e"
     end
     on_arm do
-      url "https://github.com/AntonyLeons/streamdrop/releases/download/v1.0.18/streamdrop-cli-macos-arm64"
-      sha256 "1a2908d691cc831d5858d9503fdc4ac5e76732010b294ee9c075deb446755b23"
+      url "https://github.com/AntonyLeons/streamdrop/releases/download/v1.0.19/streamdrop-cli-macos-arm64"
+      sha256 "36af035070bc18f70f065e1cdf6ab0a90331584539508890b52cb7e275d76d5a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/AntonyLeons/streamdrop/releases/download/v1.0.18/streamdrop-cli-linux-x64"
-      sha256 "3d7c7c718e5a7028b5afc071cbdb2d6be3d8a05f844a741f4ceb0292293f00e1"
+      url "https://github.com/AntonyLeons/streamdrop/releases/download/v1.0.19/streamdrop-cli-linux-x64"
+      sha256 "91d38fbc81178f5fd8618672a381487b7a6bae3795243d62fc00ad0d895e93af"
     end
   end
 
